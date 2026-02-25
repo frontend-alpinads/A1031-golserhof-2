@@ -1,30 +1,54 @@
 {
   "$schema": "../variant-spec.schema.json",
   "sectionVariants": [
-    { "hero": "v12" },
-    { "about": "v4" },
-    { "features": "v1" },
-    { "offers": "v1" },
-    { "rooms": "v6" },
-    { "gallery": "v5" },
-    { "testimonials": "v6" },
-    { "faqs": "v1" },
-    { "enquiry": "v1" },
-    { "footer": "v2" }
+    {
+      "hero": "v12"
+    },
+    {
+      "about": "v4"
+    },
+    {
+      "features": "v1"
+    },
+    {
+      "offers": "v1"
+    },
+    {
+      "rooms": "v6"
+    },
+    {
+      "gallery": "v5"
+    },
+    {
+      "testimonials": "v6"
+    },
+    {
+      "faqs": "v1"
+    },
+    {
+      "enquiry": "v1"
+    },
+    {
+      "footer": "v2"
+    }
   ],
   "content": {
     "hero": {
       "title": {
-        "de": "Urlaub in Südtirol",
-        "en": "Holiday in South Tyrol",
-        "it": "Vacanza in Alto Adige"
+        "de": "Das kleinste 4*s Hotel in Meran",
+        "en": "The Smallest 4*s Hotel in Merano",
+        "it": "Il più piccolo Hotel 4*s a Merano"
       },
       "subtitle": {
-        "de": "Willkommen in unserem Hotel in den Dolomiten. Genießen Sie atemberaubende Berglandschaften, erstklassigen Service und unvergessliche Momente der Entspannung.",
-        "en": "Welcome to our hotel in the Dolomites. Enjoy breathtaking mountain landscapes, first-class service and unforgettable moments of relaxation.",
-        "it": "Benvenuti nel nostro hotel nelle Dolomiti. Godetevi paesaggi montani mozzafiato, servizio di prima classe e momenti di relax indimenticabili."
+        "de": "Boutique-Hotel mit Charakter und Seele hoch über Meran in Dorf Tirol",
+        "en": "Boutique hotel with character and soul high above Merano in Dorf Tirol",
+        "it": "Hotel boutique con carattere e anima sopra Merano a Tirolo"
       },
-      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "images": [
+        "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+        "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+        "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000"
+      ],
       "bookingForm": {
         "arrivalDeparture": {
           "de": "Datum wählen",
@@ -79,90 +103,98 @@
     },
     "about": {
       "badge": {
-        "de": "Willkommen",
-        "en": "Welcome",
-        "it": "Benvenuti"
+        "de": "Über uns",
+        "en": "About Us",
+        "it": "Chi Siamo"
       },
       "title": {
-        "de": "Unser Hotel",
-        "en": "Our Hotel",
-        "it": "Il Nostro Hotel"
+        "de": "Willkommen im Golserhof",
+        "en": "Welcome to Golserhof",
+        "it": "Benvenuti al Golserhof"
       },
       "description": {
-        "de": "Unser Hotel verbindet Tradition mit modernem Komfort. Eingebettet in die malerische Landschaft Südtirols, bieten wir Ihnen eine Oase der Ruhe und Entspannung. Genießen Sie großzügige Räumlichkeiten, erstklassigen Service und eine herzliche Atmosphäre.",
-        "en": "Our hotel combines tradition with modern comfort. Nestled in the picturesque landscape of South Tyrol, we offer you an oasis of peace and relaxation. Enjoy spacious rooms, first-class service and a warm atmosphere.",
-        "it": "Il nostro hotel unisce tradizione e comfort moderno. Immerso nel pittoresco paesaggio dell'Alto Adige, vi offriamo un'oasi di pace e relax. Godetevi spazi ampi, servizio di prima classe e un'atmosfera accogliente."
+        "de": "Hoch über der charmanten Stadt Meran liegt der Golserhof – ein Boutiquehotel in Dorf Tirol mit Charakter und Seele. Hier trifft echte Südtiroler Gastfreundschaft auf stilvollen Komfort. Mit nur 30 liebevoll gestalteten Zimmern und Suiten ist unser Haus ein Ort des Rückzugs, an dem Sie zur Ruhe kommen, tief durchatmen und das Wesentliche wieder spüren können. Von den Panoramaterrassen eröffnet sich ein Ausblick, der verzaubert: majestätische Berge, sanfte Weinberge und das mediterrane Flair Merans verschmelzen zu einer einzigartigen Komposition aus alpinem Charakter und südlichem Charme.",
+        "en": "High above the charming city of Merano lies the Golserhof – a boutique hotel in Dorf Tirol with character and soul. Here, genuine South Tyrolean hospitality meets stylish comfort. With only 30 lovingly designed rooms and suites, our house is a place of retreat where you can find peace, breathe deeply and feel the essentials again. From the panoramic terraces, a view opens up that enchants: majestic mountains, gentle vineyards and the Mediterranean flair of Merano merge into a unique composition of alpine character and southern charm.",
+        "it": "In alto sopra l'affascinante città di Merano si trova il Golserhof – un hotel boutique a Tirolo con carattere e anima. Qui, l'autentica ospitalità sudtirolese incontra il comfort elegante. Con solo 30 camere e suite progettate con amore, la nostra casa è un luogo di ritiro dove potete trovare pace, respirare profondamente e sentire di nuovo l'essenziale. Dalle terrazze panoramiche si apre una vista che incanta: montagne maestose, dolci vigneti e il fascino mediterraneo di Merano si fondono in una composizione unica di carattere alpino e charme meridionale."
       },
       "images": [
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg"
+        "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+        "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+        "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000"
       ]
     },
     "features": {
       "badge": {
-        "de": "Ihre Urlaubs-Highlights",
-        "en": "Your Holiday Highlights",
-        "it": "I Vostri Lussi"
+        "de": "Unsere Vorzüge",
+        "en": "Our Benefits",
+        "it": "I Nostri Vantaggi"
       },
       "title": {
-        "de": "Hochwertig, persönlich, natürlich",
-        "en": "High-quality, personalised, natural",
-        "it": "Qualità, intimità, naturalità"
+        "de": "Warum der Golserhof?",
+        "en": "Why Golserhof?",
+        "it": "Perché il Golserhof?"
       },
       "description": {
-        "de": "Erleben Sie unvergessliche Momente in Südtirol. Wandern, Skifahren, Wellness und kulinarische Genüsse erwarten Sie in einer der schönsten Regionen der Alpen.",
-        "en": "Experience unforgettable moments in South Tyrol. Hiking, skiing, wellness and culinary delights await you in one of the most beautiful regions of the Alps.",
-        "it": "Vivete momenti indimenticabili in Alto Adige. Escursioni, sci, wellness e delizie culinarie vi aspettano in una delle regioni più belle delle Alpi."
+        "de": "Entdecken Sie, was Ihren Aufenthalt bei uns so besonders macht",
+        "en": "Discover what makes your stay with us so special",
+        "it": "Scoprite cosa rende il vostro soggiorno da noi così speciale"
       },
       "items": [
         {
           "title": {
-            "de": "Restaurant & Terrasse",
-            "en": "Restaurant & Terrace",
-            "it": "Ristorante & Terrazza"
+            "de": "Gourmet-Küche",
+            "en": "Gourmet Cuisine",
+            "it": "Cucina Gourmet"
           },
           "description": {
-            "de": "Genießen Sie regionale Spezialitäten und internationale Küche auf unserer Sonnenterrasse mit Blick auf die Berge.",
-            "en": "Enjoy regional specialities and international cuisine on our sun terrace with mountain views.",
-            "it": "Gustate specialità regionali e cucina internazionale sulla nostra terrazza soleggiata con vista sulle montagne."
+            "de": "Unsere Gourmetküche verwöhnt Sie mit frischen, regionalen Zutaten und kreativen Interpretationen der alpin-mediterranen Küche – perfekt ergänzt durch erlesene Weine aus Südtirol und Italien.",
+            "en": "Our gourmet cuisine pampers you with fresh, regional ingredients and creative interpretations of alpine-Mediterranean cuisine – perfectly complemented by fine wines from South Tyrol and Italy.",
+            "it": "La nostra cucina gourmet vi coccola con ingredienti freschi e regionali e interpretazioni creative della cucina alpino-mediterranea – perfettamente completata da vini pregiati dell'Alto Adige e dell'Italia."
           },
-          "imageSrc": "/placeholder.svg",
+          "imageSrc": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
           "iconName": "ForkKnifeIcon"
         },
         {
           "title": {
-            "de": "Wellness & Spa",
-            "en": "Wellness & Spa",
-            "it": "Wellness & Spa"
+            "de": "Wellness & Entspannung",
+            "en": "Wellness & Relaxation",
+            "it": "Wellness & Relax"
           },
           "description": {
-            "de": "Entspannen Sie in unserem Wellnessbereich mit Sauna, Dampfbad und Behandlungsräumen.",
-            "en": "Relax in our wellness area with sauna, steam bath and treatment rooms.",
-            "it": "Rilassatevi nella nostra area wellness con sauna, bagno turco e sale trattamenti."
+            "de": "Wohlbefinden ist im Golserhof kein Versprechen, sondern gelebte Realität. Freuen Sie sich auf beheizte Pools, wohltuende Saunen und entspannende Massage- und Schönheitsrituale, ausgeführt von unserem erfahrenen Team.",
+            "en": "Well-being at Golserhof is not a promise, but a lived reality. Look forward to heated pools, soothing saunas and relaxing massage and beauty rituals performed by our experienced team.",
+            "it": "Il benessere al Golserhof non è una promessa, ma una realtà vissuta. Non vediamo l'ora di offrirvi piscine riscaldate, saune rigeneranti e rilassanti rituali di massaggio e bellezza eseguiti dal nostro team esperto."
           },
-          "imageSrc": "/placeholder.svg",
+          "imageSrc": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
           "iconName": "FlowerLotusIcon"
         },
         {
           "title": {
-            "de": "Bergerlebnis",
-            "en": "Mountain Experience",
-            "it": "Esperienza Montana"
+            "de": "Panoramalage",
+            "en": "Panoramic Location",
+            "it": "Posizione Panoramica"
           },
           "description": {
-            "de": "Entdecken Sie die Dolomiten mit geführten Wanderungen, Skifahren und vielen weiteren Aktivitäten.",
-            "en": "Discover the Dolomites with guided hikes, skiing and many other activities.",
-            "it": "Scoprite le Dolomiti con escursioni guidate, sci e tante altre attività."
+            "de": "Von den Panoramaterrassen eröffnet sich ein Ausblick, der verzaubert: majestätische Berge, sanfte Weinberge und das mediterrane Flair Merans verschmelzen zu einer einzigartigen Komposition.",
+            "en": "From the panoramic terraces, a view opens up that enchants: majestic mountains, gentle vineyards and the Mediterranean flair of Merano merge into a unique composition.",
+            "it": "Dalle terrazze panoramiche si apre una vista che incanta: montagne maestose, dolci vigneti e il fascino mediterraneo di Merano si fondono in una composizione unica."
           },
-          "imageSrc": "/placeholder.svg",
+          "imageSrc": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
           "iconName": "MountainIcon"
+        },
+        {
+          "title": {
+            "de": "Geführte Wanderungen",
+            "en": "Guided Hikes",
+            "it": "Escursioni Guidate"
+          },
+          "description": {
+            "de": "Unser abwechslungsreiches Wochenprogramm mit geführten Wanderungen lädt ein, Südtirol aktiv und bewusst zu erleben. Entdecken Sie die Schönheit der Dolomiten mit unseren erfahrenen Guides.",
+            "en": "Our varied weekly program with guided hikes invites you to experience South Tyrol actively and consciously. Discover the beauty of the Dolomites with our experienced guides.",
+            "it": "Il nostro variegato programma settimanale con escursioni guidate vi invita a vivere l'Alto Adige in modo attivo e consapevole. Scoprite la bellezza delle Dolomiti con le nostre guide esperte."
+          },
+          "imageSrc": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+          "iconName": "BikeIcon"
         }
       ]
     },
@@ -173,14 +205,14 @@
         "it": "Impressioni"
       },
       "title": {
-        "de": "Entdecken Sie unser Hotel",
-        "en": "Discover Our Hotel",
-        "it": "Scoprite il Nostro Hotel"
+        "de": "Unsere Galerie",
+        "en": "Our Gallery",
+        "it": "La Nostra Galleria"
       },
       "description": {
-        "de": "Werfen Sie einen Blick auf unsere Zimmer, den Wellnessbereich, das Restaurant und die atemberaubende Umgebung in den Dolomiten.",
-        "en": "Take a look at our rooms, wellness area, restaurant and the stunning surroundings in the Dolomites.",
-        "it": "Date un'occhiata alle nostre camere, all'area wellness, al ristorante e allo splendido paesaggio delle Dolomiti."
+        "de": "Lassen Sie sich von unseren Bildern inspirieren und entdecken Sie die Schönheit des Golserhofs",
+        "en": "Let our images inspire you and discover the beauty of Golserhof",
+        "it": "Lasciatevi ispirare dalle nostre immagini e scoprite la bellezza del Golserhof"
       },
       "viewAll": {
         "de": "Alle Fotos ansehen",
@@ -193,10 +225,10 @@
           "en": "All",
           "it": "Tutte"
         },
-        "apartments-suites": {
-          "de": "Apartments & Suites",
-          "en": "Apartments & Suites",
-          "it": "Appartamenti & Suite"
+        "rooms": {
+          "de": "Zimmer",
+          "en": "Rooms",
+          "it": "Camere"
         },
         "wellness": {
           "de": "Wellness",
@@ -204,9 +236,9 @@
           "it": "Wellness"
         },
         "cuisine": {
-          "de": "Frühstück & Genuss",
-          "en": "Breakfast & Enjoyment",
-          "it": "Colazione & Piacere"
+          "de": "Küche",
+          "en": "Cuisine",
+          "it": "Cucina"
         },
         "experiences": {
           "de": "Erlebnisse",
@@ -215,28 +247,10 @@
         }
       },
       "categories": {
-        "apartments-suites": "apartments-suites",
+        "rooms": "rooms",
         "wellness": "wellness",
         "cuisine": "cuisine",
         "experiences": "experiences"
-      },
-      "highlightImages": {
-        "desktop": [
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg"
-        ],
-        "mobile": [
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg"
-        ]
       },
       "popup": {
         "title": {
@@ -250,85 +264,94 @@
           "it": "Chiudi galleria"
         }
       },
+      "highlightImages": {
+        "desktop": [
+          "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+          "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+          "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+          "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+          "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+          "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+          "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+          "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000"
+        ],
+        "mobile": [
+          "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+          "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+          "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
+          "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000"
+        ]
+      },
       "images": [
         {
-          "src": "/placeholder.svg",
+          "src": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
           "alt": {
-            "de": "Hotel Außenansicht",
-            "en": "Hotel exterior",
-            "it": "Esterno dell'hotel"
+            "de": "Komfort-Doppelzimmer",
+            "en": "Comfort Double Room",
+            "it": "Camera Doppia Comfort"
           },
-          "category": "other"
+          "category": "rooms"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
           "alt": {
-            "de": "Zimmer 1",
-            "en": "Room 1",
-            "it": "Camera 1"
+            "de": "Junior Suite",
+            "en": "Junior Suite",
+            "it": "Junior Suite"
           },
-          "category": "apartments-suites"
+          "category": "rooms"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
           "alt": {
-            "de": "Zimmer 2",
-            "en": "Room 2",
-            "it": "Camera 2"
-          },
-          "category": "apartments-suites"
-        },
-        {
-          "src": "/placeholder.svg",
-          "alt": {
-            "de": "Wellness 1",
-            "en": "Wellness 1",
-            "it": "Wellness 1"
+            "de": "Freibad",
+            "en": "Outdoor Pool",
+            "it": "Piscina all'aperto"
           },
           "category": "wellness"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
           "alt": {
-            "de": "Wellness 2",
-            "en": "Wellness 2",
-            "it": "Wellness 2"
+            "de": "Sauna",
+            "en": "Sauna",
+            "it": "Sauna"
           },
           "category": "wellness"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
           "alt": {
-            "de": "Restaurant 1",
-            "en": "Restaurant 1",
-            "it": "Ristorante 1"
+            "de": "Gourmet-Restaurant",
+            "en": "Gourmet Restaurant",
+            "it": "Ristorante Gourmet"
           },
           "category": "cuisine"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
           "alt": {
-            "de": "Restaurant 2",
-            "en": "Restaurant 2",
-            "it": "Ristorante 2"
+            "de": "Kulinarische Köstlichkeiten",
+            "en": "Culinary Delights",
+            "it": "Delizie Culinarie"
           },
           "category": "cuisine"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
           "alt": {
-            "de": "Erlebnisse 1",
-            "en": "Experiences 1",
-            "it": "Esperienze 1"
+            "de": "Panoramablick",
+            "en": "Panoramic View",
+            "it": "Vista Panoramica"
           },
           "category": "experiences"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
           "alt": {
-            "de": "Erlebnisse 2",
-            "en": "Experiences 2",
-            "it": "Esperienze 2"
+            "de": "Wanderungen in den Dolomiten",
+            "en": "Hiking in the Dolomites",
+            "it": "Escursioni nelle Dolomiti"
           },
           "category": "experiences"
         }
@@ -341,16 +364,16 @@
         "it": "La Vostra Richiesta"
       },
       "title": {
-        "de": "Ihr perfekter Urlaub beginnt hier...",
-        "en": "Your Perfect Holiday Starts Here...",
-        "it": "La vostra vacanza perfetta inizia qui..."
+        "de": "Wir freuen uns auf Sie",
+        "en": "We Look Forward to Hearing from You",
+        "it": "Non vediamo l'ora di sentirvi"
       },
       "description": {
-        "de": "Wir freuen uns auf Ihre Anfrage! Unser Team berät Sie gerne persönlich und erstellt Ihnen ein individuelles Angebot für Ihren Traumurlaub in Südtirol.",
-        "en": "We look forward to your enquiry! Our team will be happy to advise you personally and create a customised offer for your dream holiday in South Tyrol.",
-        "it": "Non vediamo l'ora di ricevere la vostra richiesta! Il nostro team sarà lieto di consigliarvi personalmente e creare un'offerta personalizzata per la vostra vacanza da sogno in Alto Adige."
+        "de": "Senden Sie uns Ihre unverbindliche Anfrage. Wir melden uns innerhalb von 24 Stunden mit Ihrem persönlichen Angebot.",
+        "en": "Send us your non-binding enquiry. We will respond within 24 hours with your personalised offer.",
+        "it": "Inviateci la vostra richiesta non vincolante. Risponderemo entro 24 ore con la vostra offerta personalizzata."
       },
-      "backgroundImage": "/placeholder.svg",
+      "backgroundImage": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000",
       "form": {
         "roomType": {
           "label": {
@@ -458,9 +481,9 @@
           "it": "*Accetto l'informativa sulla privacy"
         },
         "responseTime": {
-          "de": "Wir melden uns innerhalb von 24 Stunden mit Ihrem persönlichen Angebot – wir freuen uns auf Sie!",
-          "en": "We will respond within 24 hours with your personalised offer – we look forward to welcoming you!",
-          "it": "Risponderemo entro 24 ore con la vostra offerta personalizzata – non vediamo l'ora di accogliervi!"
+          "de": "Wir melden uns innerhalb von 24 Stunden mit Ihrem persönlichen Angebot",
+          "en": "We will respond within 24 hours with your personalised offer",
+          "it": "Risponderemo entro 24 ore con la vostra offerta personalizzata"
         },
         "submit": {
           "de": "Jetzt Verfügbarkeit prüfen",
@@ -488,14 +511,14 @@
       "title": {
         "de": "Was unsere Gäste sagen",
         "en": "What Our Guests Say",
-        "it": "Cosa Dicono i Nostri Ospiti"
+        "it": "Cosa dicono i nostri ospiti"
       },
       "description": {
-        "de": "Unsere Gäste schätzen die herzliche Atmosphäre, den erstklassigen Service und die atemberaubende Lage in den Dolomiten. Lesen Sie, was andere über ihren Aufenthalt bei uns berichten.",
-        "en": "Our guests appreciate the warm atmosphere, first-class service and stunning location in the Dolomites. Read what others have to say about their stay with us.",
-        "it": "I nostri ospiti apprezzano l'atmosfera calorosa, il servizio di prima classe e la posizione mozzafiato nelle Dolomiti. Leggete cosa dicono gli altri del loro soggiorno da noi."
+        "de": "Lesen Sie die Bewertungen unserer zufriedenen Gäste",
+        "en": "Read the reviews from our satisfied guests",
+        "it": "Leggete le recensioni dei nostri ospiti soddisfatti"
       },
-      "image": "/placeholder.svg"
+      "image": "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg?anchor=center&mode=crop&quality=45&width=720&height=360&rnd=134120973235830000"
     },
     "faqs": {
       "badge": {
@@ -504,14 +527,14 @@
         "it": "Buono a Sapersi"
       },
       "title": {
-        "de": "Häufige Fragen",
+        "de": "Häufig gestellte Fragen",
         "en": "Frequently Asked Questions",
         "it": "Domande frequenti"
       },
       "description": {
-        "de": "Hier finden Sie Antworten auf die häufigsten Fragen zu Ihrem Aufenthalt. Bei weiteren Fragen steht Ihnen unser Team gerne zur Verfügung.",
-        "en": "Here you will find answers to the most common questions about your stay. If you have any further questions, our team will be happy to help.",
-        "it": "Qui troverete le risposte alle domande più frequenti sul vostro soggiorno. Per ulteriori domande, il nostro team sarà lieto di aiutarvi."
+        "de": "Hier finden Sie Antworten auf die wichtigsten Fragen zu Ihrem Aufenthalt",
+        "en": "Here you will find answers to the most important questions about your stay",
+        "it": "Qui troverete le risposte alle domande più importanti sul vostro soggiorno"
       }
     },
     "offers": {
@@ -526,9 +549,9 @@
         "it": "Le Nostre Offerte Attuali"
       },
       "description": {
-        "de": "Entdecken Sie unsere saisonalen Angebote für Ihren perfekten Urlaub in Südtirol – ob Wellness, Wandern, Skifahren oder kulinarische Erlebnisse.",
-        "en": "Discover our seasonal offers for your perfect holiday in South Tyrol – whether wellness, hiking, skiing or culinary experiences.",
-        "it": "Scoprite le nostre offerte stagionali per la vostra vacanza perfetta in Alto Adige – che sia wellness, escursioni, sci o esperienze culinarie."
+        "de": "Entdecken Sie unsere attraktiven Urlaubspakete und profitieren Sie von besonderen Ermäßigungen",
+        "en": "Discover our attractive holiday packages and benefit from special discounts",
+        "it": "Scoprite i nostri interessanti pacchetti vacanza e approfittate di sconti speciali"
       }
     },
     "rooms": {
@@ -538,14 +561,14 @@
         "it": "CAMERE & SUITE"
       },
       "title": {
-        "de": "Unsere Unterkünfte",
-        "en": "Our Accommodations",
-        "it": "I Nostri Alloggi"
+        "de": "Komfort trifft Design",
+        "en": "Comfort Meets Design",
+        "it": "Il Comfort Incontra il Design"
       },
       "description": {
-        "de": "Komfortable Zimmer und Suiten mit Blick auf die Berge. Moderne Ausstattung und traditioneller Südtiroler Charme vereinen sich zu einem einzigartigen Wohnerlebnis.",
-        "en": "Comfortable rooms and suites with mountain views. Modern amenities and traditional South Tyrolean charm combine to create a unique living experience.",
-        "it": "Camere e suite confortevoli con vista sulle montagne. Comfort moderni e fascino tradizionale altoatesino si uniscono per un'esperienza abitativa unica."
+        "de": "Mit nur 30 liebevoll gestalteten Zimmern und Suiten ist unser Haus ein Ort des Rückzugs",
+        "en": "With only 30 lovingly designed rooms and suites, our house is a place of retreat",
+        "it": "Con sole 30 camere e suite progettate con cura, la nostra casa è un luogo di ritiro"
       },
       "tabs": {
         "all": {
@@ -564,7 +587,7 @@
           "it": "Suite"
         }
       },
-      "logoImage": "/placeholder.svg"
+      "logoImage": "https://hotel.golserhof.it/media/ozqjekfu/logo.svg"
     }
   }
 }
